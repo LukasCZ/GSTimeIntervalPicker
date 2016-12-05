@@ -1,11 +1,11 @@
 ## GSTimeIntervalPicker
 
-A UI component for picking time interval, with support of setting upper time interval limit.
+A UI component for picking time interval, with the support of setting upper time interval limit.
 
 ![GSTimeIntervalPicker sample gif showcase](sample.gif)
 
 ## Why does this exist?
-When building Reminders in [Timelines](http://timelinesapp.io), I stumbled upon the need of letting users pick a time interval between 0 and 3 hours. UIDatePicker in its .CountDownTimer mode supports almost what I needed, but not quite - there is no way how to limit the time interval. With this class, I attempted to fully replicate this UIDatePicker-countDownTimer behaviour, while adding the support to limit the interval.
+When building Reminders in [Timelines](http://timelinesapp.io), I stumbled upon the need of letting users pick a time interval between 0 and 3 hours. UIDatePicker in its .CountDownTimer mode supports almost what I needed, but not quite - there is no way how to limit the time interval. With this class, I attempted to fully replicate this UIDatePicker-countDownTimer behavior, while adding the support to limit the interval.
 
 ## Features
 
@@ -19,7 +19,7 @@ When building Reminders in [Timelines](http://timelinesapp.io), I stumbled upon 
 
 ## How do I use it?
 
-Since GSTimeIntervalPicker is a subclass of UIPickerView, it carries its intrinsic content size and therefore plays nicely with Autolayout, inputViews and self sizing cells. Using it is really simple, it's basically a drop-in replacement of UIDatePicker.
+Since GSTimeIntervalPicker is a subclass of UIPickerView, it carries its intrinsic content size and therefore plays nicely with Autolayout, inputViews, and self-sizing cells. Using it is really simple, it's basically a drop-in replacement of UIDatePicker.
 
 The basic setup in code could look something like this: 
 
@@ -49,11 +49,13 @@ Note: If you are using something else than textView / textField, you might need 
 ### As a self-sizing cell
 Create a cell and place this picker inside of it, pinning it to all 4 sides. I prefer using Storyboards and prototype cells for that:
 
-1. Make your cell 217 points tall. (pickers are 216 points by default, so 1 extra point is for the cell separator)
-2. Drag a UIPickerView into your cell, and set its class to `GSTimeIntervalPicker` in the Identity Inspector
+1. Make your cell `217` points tall. (pickers are 216 points by default, so 1 extra point is for the cell separator)
+2. Drag a `UIPickerView` into your cell, and set its class to `GSTimeIntervalPicker` in the Identity Inspector
 3. Pin it to all 4 sides, like so:
 
-![Alt text](xib-sizing-2x.png?raw=true "Setting constraint and class in IB")
+![Setting constraint and class in IB](xib-sizing-2x.png?raw=true "Setting constraint and class in IB")
+
+<img src="xib-sizing-1x.png" width="696px" srcset="xib-sizing-1x.png 1x, xib-sizing-2x.png 2x" alt="Setting constraint and class in IB">
 
 To see a complete example of this, try out the sample app attached with this code.
 
