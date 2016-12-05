@@ -43,7 +43,7 @@ Simply assign the picker to the `inputView` property of your first responder lik
 myFirstResponderObject.inputView = picker;
 ```
 
-Note: If you are using something else than textView / textField, you might need to create a readwrite property for the inputView, because for some strange reason, UIResponder defines it as read-only. For more details, consult this great guide by Apple [Custom Views for Data Input](https://developer.apple.com/library/content/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/InputViews/InputViews.html)
+Note: If you are using something else than textView / textField, you might need to create a readwrite property for the inputView, because for some strange reason, UIResponder defines it as read-only. For more details, consult this great guide by Apple: [Custom Views for Data Input](https://developer.apple.com/library/content/documentation/StringsTextFonts/Conceptual/TextAndWebiPhoneOS/InputViews/InputViews.html).
 
 
 ### As a self-sizing cell
