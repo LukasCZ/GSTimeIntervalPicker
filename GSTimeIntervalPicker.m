@@ -85,7 +85,6 @@
 
 - (void)setBounds:(CGRect)bounds {
     [super setBounds:bounds];
-    NSLog(@"GSTimeIntervalPicker - setBounds called, self.frame = %@", NSStringFromCGRect(self.frame));
     [self updateStaticLabelsPositions];
 }
 
