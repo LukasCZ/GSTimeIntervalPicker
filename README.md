@@ -55,7 +55,7 @@ Create a cell and place this picker inside of it, pinning it to all 4 sides. I p
 
 ![Setting constraint and class in IB](xib-sizing-2x.png?raw=true "Setting constraint and class in IB")
 
-<img src="xib-sizing-1x.png" width="696px" srcset="xib-sizing-1x.png 1x, xib-sizing-2x.png 2x" alt="Setting constraint and class in IB">
+<img src="xib-sizing-2x.png" width="696px" alt="Setting constraint and class in IB">
 
 To see a complete example of this, try out the sample app attached with this code.
 
