@@ -27,7 +27,7 @@ The basic setup in code could look something like this:
 GSTimeIntervalPicker *picker = [[GSTimeIntervalPicker alloc] init];
 picker.maxTimeInterval = (3600 * 3);    // set the limit
 picker.minuteInterval = 5;				// the step. Default is 1 minute
-picker.timeInterval = (3600 * 1.5);    	// 1 h 45 minutes
+picker.timeInterval = (3600 * 1.5);    	// 1 h 30 minutes
 picker.onTimeIntervalChanged = ^(NSTimeInterval newTimeInterval) {
 	// Use the value
 };
