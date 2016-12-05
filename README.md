@@ -53,7 +53,7 @@ Create a cell and place this picker inside of it, pinning it to all 4 sides. I p
 2. Drag a UIPickerView into your cell, and set its class to `GSTimeIntervalPicker` in the Identity Inspector
 3. Pin it to all 4 sides, like so:
 
-![Alt text](xib_sizing-2x.png?raw=true "Setting constraint and class in IB")
+![Alt text](xib-sizing-2x.png?raw=true "Setting constraint and class in IB")
 
 To see a complete example of this, try out the sample app attached with this code.
 
